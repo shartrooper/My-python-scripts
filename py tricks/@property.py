@@ -29,3 +29,18 @@ print(human.temperature)
 print(human.to_fahrenheit())
 
 coldest_thing = Celsius(-300)
+
+#Output:
+'''
+Setting value...
+Getting value...
+37
+Getting value...
+98.60000000000001
+Setting value...
+Traceback (most recent call last):
+  File "<string>", line 29, in <module>
+  File "<string>", line 4, in __init__
+  File "<string>", line 18, in temperature
+ValueError: Temperature below -273 is not possible
+'''
