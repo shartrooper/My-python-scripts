@@ -1,0 +1,12 @@
+#In Python, one-liner if-else statements are known as ternary operators or conditional operators. For example:
+
+age = 30
+age_group = "Adult" if age > 18 else "Child"
+print(age_group)
+
+#Output:
+#Adult
+
+#Generally, a conditional operator follows this pattern for your convenience:
+
+true_expression if condition else false_expression
